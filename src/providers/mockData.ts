@@ -414,14 +414,14 @@ const apartments = [
 
 const projects = [
   {
-    name: "Project A – Location X",
+    name: "Large Project (very slow)",
     created_at: new Date("2024-09-22"),
     bauleiter: "manager1",
     apartments: apartments,
     bemusterungs_artikel: bemusterungsArtikel,
   },
   {
-    name: "Project B – Location Y",
+    name: "Small Project (not fast, but okay)",
     created_at: new Date("2024-09-12"),
     bauleiter: "manager1",
     apartments: [
@@ -434,32 +434,6 @@ const projects = [
         name: "Apartment 1",
         wohnFlaeche: 92,
         wohnFlaecheParkett: 98,
-        stockwerk: "Top Floor",
-        raeumeMitFliesen: [
-          {
-            roomType: "Tile Room 1",
-            bodenFlaeche: 1,
-            wandFlaeche: 2,
-          },
-        ],
-      },
-    ],
-    bemusterungs_artikel: bemusterungsArtikel,
-  },
-  {
-    name: "Project C – Location Z",
-    created_at: new Date("2024-12-01"),
-    bauleiter: "manager1",
-    apartments: [
-      {
-        id: "0",
-        projectId: "2",
-        angebotsname: "Offer / 87",
-        erwerber: "Client 1",
-        angebotsdatum: new Date("2023-06-14"),
-        name: "Apartment 1",
-        wohnFlaeche: 92,
-        wohnFlaecheParkett: 96,
         stockwerk: "Top Floor",
         raeumeMitFliesen: [
           {
