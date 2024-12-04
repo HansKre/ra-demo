@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "test-tool",
+    "development": "test-tool-dev"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
