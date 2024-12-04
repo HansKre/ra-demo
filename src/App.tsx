@@ -3,7 +3,7 @@ import { lazy } from "react";
 import { Admin, Resource } from "react-admin";
 import { appName } from "./constants";
 import { Layout } from "./layout";
-import { authProvider, dataProvider, i18nProvider } from "./providers";
+import { dataProvider, i18nProvider } from "./providers";
 import { theme } from "./styles";
 
 const ProjectsEdit = lazy(() =>
@@ -24,7 +24,6 @@ export const App = () => (
     layout={Layout}
     theme={theme}
     dataProvider={dataProvider}
-    authProvider={authProvider}
     i18nProvider={i18nProvider}
   >
     <Resource
